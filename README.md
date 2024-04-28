@@ -1,63 +1,24 @@
-# TypeScript React Tailwind Vite Template
+# React 19 exploring
 
-This template provides a starting point for creating React projects with TypeScript, Tailwind CSS, and Vite.
+In this exploration, we will be diving into the new features of React 19, specifically focusing on the `useActionState` Hook.
 
-## Overview
+The `useActionState` Hook is a powerful tool that allows you to update state based on the result of a form action. It provides a convenient way to handle form submissions and update the state of your React components accordingly.
 
-This template allows you to quickly set up a React project with TypeScript, Tailwind CSS, and Vite. It provides a modern development environment with features such as hot module replacement and fast refresh, making it easy to develop and customize your React applications.
+By using `useActionState`, you can easily manage the state of your form inputs and handle any actions triggered by the form submission. This Hook simplifies the process of updating state and provides a clean and concise way to handle form-related logic.
 
-## Features
+## Running the project
 
-- TypeScript: Develop with confidence using static type-checking and improved tooling.
+1. Install project dependencies using pnpm:
 
-- React: Build dynamic user interfaces with the popular React library.
+   ```bash
+   pnpm install
+   ```
 
-- Tailwind CSS: Easily style and customize your components using the utility-first approach of Tailwind CSS.
+2. Start the development server:
+   ```bash
+   pnpm dev
+   ```
 
-- Vite: Enjoy fast development and instant hot module replacement with Vite's lightning-fast dev server.
+This will start the Vite development server and your React project will be accessible at `http://localhost:3000`.
 
-## Installation
-
-To create a new project using this template, follow these steps:
-
-1. Ensure that you have Node.js installed on your machine.
-2. Open a terminal and navigate to the directory where you want to create your project.
-3. Run the following command to create a new project using the template:
-
-```bash
-npx create-vite@latest --template typescript-react-tailwind-vite my-project
-```
-
-Replace my-project with the desired name for your project.
-
-4. Once the command completes, navigate into the project directory:
-
-```bash
-cd my-project
-```
-
-5. Install the dependencies:
-
-```bash
-npm install
-```
-
-## Usage
-
-To start the development server and run the project, use the following command:
-
-```bash
-npm run dev
-```
-
-This will start the development server and open your project in the browser. Any changes you make to the source code will be automatically reflected in the browser.
-
-## Building for Production
-
-To build the project for production, use the following command:
-
-```bash
-npm run build
-```
-
-This will create an optimized build of your project in the dist directory.
+That's it! You have successfully installed and run a Vite + React project using pnpm.
